@@ -1,0 +1,22 @@
+{
+  "name": "@quelora/worker",
+  "version": "1.0.0",
+  "description": "Background worker for email and push notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@quelora/common": "1.0.0",
+    "bullmq": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "ioredis": "^5.0.0",
+    "mongoose": "^6.0.0", 
+    "nodemailer": "^6.9.0",
+    "web-push": "^3.6.0"
+  },
+  "optionalDependencies": {
+    "@quelora/enterprise": "*"
+  }
+}
